@@ -1,0 +1,33 @@
+1. CV vs ML eng asosiy 5ta farqini sanag.
+                    ML                              CV
+Data                Har xil: jadval, matn           Rasm va video (piksellar)       
+Ma’lumot tuzilishi  Ko’pincha tekis jadval          Fazoviy tuzilma (balandlik × kenglik × kanal)    
+Asosiy modellar     Liner Regression, Trees, SVM    CNN, Vision Transformer
+Vazifalar           bashorat, klasterlash           Classification, detection, segmentation, video tahlili, ...
+Resurs              Ko’pincha CPU yetadi            Odatda GPU va ko’p ma’lumot kerak
+
+2. CV dagi eng qiziq bolgan aplicationni yozing
+- Pose Estimation - Fitness applar uchun
+
+3. OCR bilan nimalar qilsak boladi?
+- Optical character recognition - matnni aniqlash imkonini beradi. Avtomobil raqamlarini aniqlashda, Hujjatlarni o'qishda, Cheklarni qayta ishlashda foydalanishimiz mumkin.
+
+4. Video classification va Image classificationning nima farqi bor?
+- Image classificationda - Imagedagi objectning turini aniqlaymiz. It yoki mushuk! - static
+- Video classificationdan - Videodagi harakatning turini. It saakrayabdimi? o'ynayabdimi? - Action
+
+5. Image classification: Binary vs Multi
+=> Binary classification — 2 ta sinf. Rasm shulardan faqat bittasiga tegishli.
+Misol: olma yoki banan.
+=> Multi-class classification — 3 yoki undan ko’p sinf. Rasm bittasiga tegishli.
+Misol: Korean food’da kimchi, bibimbap, tteokbokki
+
+                      Binary                 Multi-class
+Sinflar soni	        2	                     K>=3
+Chiqish neyronlari	  1	                     K
+Activation	          sigmoid	               softmax
+Loss	                Binary cross-entropy	 Categorical cross-entropy
+
+6. Biron rasmni encoding qilganimizda 255 dan oshib ketishi mumkinmi? nima uchun?
+Yorqinlik oshirganimizda = piksellarga son qo’shiladi. Yorqin piksellar 255 dan oshib ketadi. ( shuning uchun natijani 255 da kesish kerak.)
+Misol: piksel qiymati 200. Rasmni yorqinroq qilmoqchimiz, 100 qo’shsak: 200 + 100 = 300
