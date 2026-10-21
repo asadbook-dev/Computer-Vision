@@ -1,1 +1,23 @@
+Image classification
+1. Ovqat turini aniqlash
+2. Mevalarni aniqlash
 
+Object detection
+1. Do'kon kamerasi: o'g'rilikni aniqlaydi
+2. Tekpeda bosh kiyim kiyilgan yoki yoqligini aniqlash
+
+Image segmentation
+1. Tibbiyot: MRI yoki rentgen rasmda o’simta chegarasini piksel aniqligida ajratadi
+2. Fonni olib tashlash: Videodagi objectni ajratib oladi
+
+OCR
+1. Marketlardagi cheklarni tekshirish
+2. Hujjatlani o'qish
+
+Pose Estimation
+1. Fitness applarda, mashqlar to'g'ri bajarilishini tekshirish. Masalan: turnik tortinishda
+2. Qariyalarni nazorat qilishda. Masalan: yiqilib tushmadimi?
+
+Video classification
+1. Video kontentlarni zararli yoki zararsizga ajratish
+2. Ishxonada ishchi ishlayabdimi yoki yo'q
